@@ -1,0 +1,89 @@
+name: violeta.lebsack
+description: Reactive
+version: 0.0.1
+author: okpnl5kh.ydkqp9mx@qcciivrl.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: violetalebsack
+  parentArtefactID: okpnl5khydkqp9mxqcciivrlcomteam
+  buildSystem: maven
+  author: null
+  createdAt: '2025-09-19 23:32:19'
+pipelines:
+  pipelines/conflictedPipelineCode:
+    name: conflictedPipelineCode
+    description: null
+    author: okpnl5kh.ydkqp9mx@qcciivrl.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:32:19'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/conflictedPipelineDescription:
+    name: conflictedPipelineDescription
+    description: null
+    author: okpnl5kh.ydkqp9mx@qcciivrl.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:32:19'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+  pipelines/badPipeline:
+    name: badPipeline
+    description: null
+    author: okpnl5kh.ydkqp9mx@qcciivrl.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2025-09-19 23:32:20'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-09-19 23:32:19'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2025-09-19T23:32:19.743552Z'
+  name: plibMaven
+  version: 8.14.0-SNAPSHOT
+  id: '1756135352'
+  createdAt: '2025-09-19T23:32:19.743552Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
